@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take A Hike</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <navbar class="nav justify-content-center">
+        <a class="navbar-brand" href="#">Take A Hike</a>
+    </navbar>
+    <form class="form-inline justify-content-center">
+        <label class="sr-only" for="inlineFormInputName2">City or Zip Code</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="City">
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Distance</label>
+        <div class="input-group mb-2 mr-sm-2">
+            <input type="number" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Distance Away">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+    <div class="container-fluid">
+        <!-- fill with AJAX from API -->
+        <div class="card">
+            <img>
+            <h2 class="row">Trail Name</h2>
+            <table>
+                <!-- distance / rating / elevation / distance to trail -->
+            </table>
+            <div class="row">
+                <p> Description or other relevant informaiton</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
